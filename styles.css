@@ -1,1 +1,15 @@
-/*  your css code here. If applicable */
+/* Optional styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+#status {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 8px 16px;
+  font-size: 16px;
+}
