@@ -1,8 +1,4 @@
-const statusPara = document.getElementById('status');
-const enterBtn = document.getElementById('enterBtn');
-
-enterBtn.addEventListener('click', () => {
-  const h1 = document.createElement('h1');
-  h1.textContent = "Entered Metaverse";
-  statusPara.replaceWith(h1);
+document.getElementById("enterBtn").addEventListener("click", function () {
+  const statusPara = document.getElementById("status");
+  statusPara.outerHTML = "<h1 id='status'>Entered Metaverse</h1>";
 });
